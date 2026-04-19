@@ -23,7 +23,7 @@
  <p>클라이언트시간:<span></span></p>
  
  <script>
-	const spanEl = document.querySeletor('span')
+	const spanEl = document.querySelector('span')
 	spanEl.innerHTML = (new Date()).toLocaleString();
 	
  </script>
